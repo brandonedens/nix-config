@@ -43,6 +43,10 @@
     fd
     ripgrep
 
+    # Fonts
+    fira-code
+    hack-font
+
     # Development
     gcc
     gdb
