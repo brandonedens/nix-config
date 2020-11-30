@@ -58,15 +58,20 @@
     discord
     weechat
     slack
+    signal-cli
+    signal-desktop
 
     # Browsers
     firefox
     chromium
+    #tor-browser-bundle-bin
 
     # Media
     cmus
     vlc
     pavucontrol
+    ncspot
+    spotify
 
     # Window Manager
     xss-lock

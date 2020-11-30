@@ -126,8 +126,8 @@ export MENUCONFIG_COLOR=blackbg
 
 export GNUTERM=x11
 
-export NIXPKGS=$HOME/nixpkgs
-export NIXDIR=$HOME/nixpkgs
+#export NIXPKGS=$HOME/nixpkgs
+#export NIXDIR=$HOME/nixpkgs
 
 #export RUST_BACKTRACE=1
 
