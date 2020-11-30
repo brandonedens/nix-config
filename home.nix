@@ -64,7 +64,7 @@
     # Browsers
     firefox
     chromium
-    #tor-browser-bundle-bin
+    tor-browser-bundle-bin
 
     # Media
     cmus

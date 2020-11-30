@@ -128,6 +128,7 @@ export GNUTERM=x11
 
 #export NIXPKGS=$HOME/nixpkgs
 #export NIXDIR=$HOME/nixpkgs
+export NIX_PATH=$HOME/.nix-defexpr/channels${NIX_PATH:+:}$NIX_PATH
 
 #export RUST_BACKTRACE=1
 
