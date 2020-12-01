@@ -53,6 +53,9 @@
     gcc-arm-embedded
     openocd
     tokei
+    picocom
+    screen
+    tmux
 
     # Chat
     discord
@@ -60,6 +63,7 @@
     slack
     signal-cli
     signal-desktop
+    zoom-us
 
     # Browsers
     firefox
@@ -72,6 +76,15 @@
     pavucontrol
     ncspot
     spotify
+    ffmpeg
+    sox
+
+    # Games
+    pingus
+    neverball
+
+    # Broadcast
+    obs-studio
 
     # Window Manager
     xss-lock
@@ -84,12 +97,26 @@
     inkscape
     gimp
 
+    # Science
+    kicad
+    octave
+
     # Other
     direnv
     nixfmt
     unzip
     nodejs
     clight
+    wireshark
+    wget
+    whois
+    bandwhich
+    parted
+    zathura
+    asciidoc
+    pandoc
+    toilet
+    ponysay
   ];
 
   programs.zsh = {
