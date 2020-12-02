@@ -78,10 +78,21 @@
     spotify
     ffmpeg
     sox
+    blender
+
+    # Audio
+    fluidsynth
+
+    # Android
+    scrcpy
 
     # Games
     pingus
     neverball
+    teeworlds
+
+    # Emulation
+    qemu
 
     # Broadcast
     obs-studio
