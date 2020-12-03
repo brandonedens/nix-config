@@ -44,8 +44,25 @@
     ripgrep
 
     # Fonts
+    dina-font
     fira-code
+    fira-code-symbols
     hack-font
+    hasklig
+    liberation_ttf
+    material-design-icons
+    material-icons
+    mplus-outline-fonts
+    nerdfonts
+    noto-fonts
+    noto-fonts-cjk
+    noto-fonts-emoji
+    opensans-ttf
+    #proggyfonts
+    roboto
+    roboto-mono
+    roboto-slab
+    #terminus_font
 
     # Development
     gcc
@@ -66,7 +83,6 @@
     zoom-us
 
     # Browsers
-    firefox
     chromium
     tor-browser-bundle-bin
 
@@ -79,6 +95,17 @@
     ffmpeg
     sox
     blender
+    mplayer
+    mpv
+    opencv
+    openshot-qt
+    ardour
+
+    # SDR
+    sdrangel
+
+    # Numerical
+    opencascade
 
     # Audio
     fluidsynth
@@ -128,7 +155,21 @@
     pandoc
     toilet
     ponysay
+    electron
+    vscode
+    ripgrep-all
+    gnome3.cheese
+    #clipgrab
+    pulseeffects
+    wineFull
+    geeqie
+    abook
+    mutt
+    w3m
+    bear
   ];
+
+  fonts.fontconfig.enable = true;
 
   programs.zsh = {
     enable = true;
