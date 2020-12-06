@@ -10,6 +10,7 @@
   # paths it should manage.
   home.username = "mbe";
   home.homeDirectory = "/home/mbe";
+  home.language.base = "en-US.UTF-8";
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
@@ -167,6 +168,7 @@
     mutt
     w3m
     bear
+    asciinema
   ];
 
   fonts.fontconfig.enable = true;
