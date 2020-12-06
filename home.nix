@@ -169,6 +169,8 @@
     w3m
     bear
     asciinema
+    zoxide
+    procs
   ];
 
   fonts.fontconfig.enable = true;
