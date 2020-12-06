@@ -171,5 +171,6 @@ export RUSTC_WRAPPER=/usr/bin/sccache
 
 set +o noclobber
 
+eval "$(zoxide init zsh)"
 eval $(starship init zsh)
 
