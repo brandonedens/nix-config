@@ -8,9 +8,15 @@
 
   # Home Manager needs a bit of information about you and the
   # paths it should manage.
-  home.username = "mbe";
-  home.homeDirectory = "/home/mbe";
-  home.language.base = "en-US.UTF-8";
+  home = {
+    username = "mbe";
+    homeDirectory = "/home/mbe";
+    language.base = "en-US.UTF-8";
+    sessionVariables = {
+      EDITOR = "${pkgs.vim}/bin/vim";
+      PAGER = "${pkgs.less}/bin/less";
+    };
+  };
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
